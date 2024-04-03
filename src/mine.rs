@@ -60,7 +60,7 @@ impl Miner {
             stdout.flush().ok();
 
             // Submit mine tx.
-            let mut bus_id = 0;
+            let mut bus_id = 5;
             let mut invalid_busses: Vec<u8> = vec![];
             let mut needs_reset = false;
             'submit: loop {
